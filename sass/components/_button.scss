@@ -1,0 +1,14 @@
+.back-to-top {
+
+    &:hover {
+        cursor: pointer;
+    }
+    &__arrow{
+        font-size: 48px;
+        animation: bounce 3s infinite ease-in-out;
+        -webkit-animation: bounce 3s infinite ease-in-out;
+        -o-animation: bounce 3s infinite ease-in-out;
+        -ms-animation: bounce 3s infinite ease-in-out; 
+        -moz-animation: bounce 3s infinite ease-in-out;
+    }
+}
