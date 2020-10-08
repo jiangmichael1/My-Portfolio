@@ -1,48 +1,63 @@
+//SOCIAL MEDIA ICON BAR
+
 ion-icon {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .icons {
-    padding: 2rem 1rem;
+    padding: 1rem;
     display: inline-block;
     background-color: #efefef;
     box-shadow: 4px 2px 2px #ccc;
 
     & > * {
-        filter: blur(1.5px) grayscale(1);
+        @include iconFocusScale;
+        
+        margin: 2px;   
+    }
+
+    &__yahoo {
+        color: #6001D2; 
         transition: all .3s;
-    
+
         &:hover {
-            filter: none;
-            
+            transform: scale(1.3);  
         }
     }
 
-
-    &__yahoo {
-        color: #6001D2;
-        @include iconFocusScale;
-    }
-
     &__github {
-        color: #181717;
-        @include iconFocusScale;
+        color: #181717; 
+        transition: all .3s;
 
+        &:hover {
+            transform: scale(1.3); 
+        }
     }
 
     &__gmail {
         color: #D14836;
-        @include iconFocusScale;
+        transition: all .3s;
 
+        &:hover {
+            transform: scale(1.3);  
+        }
     }
 
     &__linkedin {
         color: #0077B5;
-        @include iconFocusScale;
+        transition: all .3s;
+
+        &:hover {
+            transform: scale(1.3); 
+        }
     }
 
     &__medium {
         color: #12100E;
-        @include iconFocusScale;
+        transition: all .3s;
+
+        &:hover {
+            transform: scale(1.3); 
+        }
     }
 }
