@@ -1,15 +1,48 @@
-.ion-icon {
-    font-size: 30px;
+ion-icon {
+    font-size: 24px;
 }
 
 .icons {
+    padding: 2rem 1rem;
+    display: inline-block;
+    background-color: #efefef;
+    box-shadow: 4px 2px 2px #ccc;
+
+    & > * {
+        filter: blur(1.5px) grayscale(1);
+        transition: all .3s;
     
+        &:hover {
+            filter: none;
+            
+        }
+    }
+
 
     &__yahoo {
         color: #6001D2;
+        @include iconFocusScale;
     }
 
     &__github {
         color: #181717;
+        @include iconFocusScale;
+
+    }
+
+    &__gmail {
+        color: #D14836;
+        @include iconFocusScale;
+
+    }
+
+    &__linkedin {
+        color: #0077B5;
+        @include iconFocusScale;
+    }
+
+    &__medium {
+        color: #12100E;
+        @include iconFocusScale;
     }
 }

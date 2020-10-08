@@ -1,11 +1,41 @@
 .greeting {
   color: skyblue; }
 
-.ion-icon {
-  font-size: 30px; }
+ion-icon {
+  font-size: 24px; }
 
-.icons__yahoo {
-  color: #6001D2; }
-
-.icons__github {
-  color: #181717; }
+.icons {
+  padding: 2rem 1rem;
+  display: inline-block;
+  background-color: #efefef;
+  box-shadow: 4px 2px 2px #ccc; }
+  .icons > * {
+    filter: blur(1.5px) grayscale(1);
+    transition: all .3s; }
+    .icons > *:hover {
+      filter: none; }
+  .icons__yahoo {
+    color: #6001D2;
+    transition: all .3s; }
+    .icons__yahoo:hover {
+      transform: scale(1.3); }
+  .icons__github {
+    color: #181717;
+    transition: all .3s; }
+    .icons__github:hover {
+      transform: scale(1.3); }
+  .icons__gmail {
+    color: #D14836;
+    transition: all .3s; }
+    .icons__gmail:hover {
+      transform: scale(1.3); }
+  .icons__linkedin {
+    color: #0077B5;
+    transition: all .3s; }
+    .icons__linkedin:hover {
+      transform: scale(1.3); }
+  .icons__medium {
+    color: #12100E;
+    transition: all .3s; }
+    .icons__medium:hover {
+      transform: scale(1.3); }

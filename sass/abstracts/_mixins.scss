@@ -1,0 +1,7 @@
+@mixin iconFocusScale {
+    transition: all .3s;
+
+        &:hover {
+            transform: scale(1.3);
+        }
+}
