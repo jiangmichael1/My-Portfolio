@@ -1,3 +1,33 @@
+.back-to-top {
+  background-color: orangered;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+  .back-to-top:hover {
+    cursor: pointer; }
+  .back-to-top__arrow {
+    font-size: 48px;
+    animation: bounce 3s infinite ease-in-out;
+    -webkit-animation: bounce 3s infinite ease-in-out;
+    -o-animation: bounce 3s infinite ease-in-out;
+    -ms-animation: bounce 3s infinite ease-in-out;
+    -moz-animation: bounce 3s infinite ease-in-out; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .35;
+  overflow: hidden;
+  filter: blur(2px); }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
 ion-icon {
   font-size: 32px; }
 
@@ -69,18 +99,7 @@ body {
   font-weight: 300;
   line-height: 1.6; }
 
-.back-to-top:hover {
-  cursor: pointer; }
-
-.back-to-top__arrow {
-  font-size: 48px;
-  animation: bounce 3s infinite ease-in-out;
-  -webkit-animation: bounce 3s infinite ease-in-out;
-  -o-animation: bounce 3s infinite ease-in-out;
-  -ms-animation: bounce 3s infinite ease-in-out;
-  -moz-animation: bounce 3s infinite ease-in-out; }
-
 .header__img img {
-  height: 20vw;
+  height: 10vw;
   border-radius: 50%;
   box-shadow: 4px 2px 2px #bbbbbb; }
