@@ -1,9 +1,15 @@
 .header {
+    width: 90vw;
+    
+    background-color: rgba(#eee, .8);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
     &__img {
         img {
             height: 10vw;
             border-radius: 50%;
-            box-shadow: 4px 2px 2px #bbbbbb;
         }
     }
-}
+}   

@@ -5,14 +5,11 @@ ion-icon {
 }
 
 .icons {
-    padding: 1rem;
-    display: inline-block;
-    background-color: #efefef;
-    box-shadow: 4px 2px 2px #ccc;
+    
 
     & > * {
         @include iconFocusScale;
-        
+
         margin: 2px;   
     }
 

@@ -1,6 +1,6 @@
 @mixin iconFocusScale {
     transition: all .3s;
-    filter: blur(1.5px) grayscale(1);
+    filter: grayscale(1);
 
         &:hover {
             filter: none;
