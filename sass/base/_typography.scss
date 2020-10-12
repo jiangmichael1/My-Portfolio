@@ -4,16 +4,19 @@ ion-icon {
     font-size: 32px;
 }
 
-.icons {
+.header__icons {
     
 
     & > * {
         @include iconFocusScale;
 
-        margin: 2px;   
+        &:not(:last-child) {
+        
+            margin-right: 2rem;
+        }
     }
 
-    &__yahoo {
+    &--yahoo {
         color: #6001D2; 
         transition: all .3s;
 
@@ -22,7 +25,7 @@ ion-icon {
         }
     }
 
-    &__github {
+    &--github {
         color: #181717; 
         transition: all .3s;
 
@@ -31,7 +34,7 @@ ion-icon {
         }
     }
 
-    &__gmail {
+    &--gmail {
         color: #D14836;
         transition: all .3s;
 
@@ -40,7 +43,7 @@ ion-icon {
         }
     }
 
-    &__linkedin {
+    &--linkedin {
         color: #0077B5;
         transition: all .3s;
 
@@ -49,8 +52,17 @@ ion-icon {
         }
     }
 
-    &__medium {
+    &--medium {
         color: #12100E;
+        transition: all .3s;
+
+        &:hover {
+            transform: scale(1.3); 
+        }
+    }
+
+    &--twitter {
+        color: #1DA1F2;
         transition: all .3s;
 
         &:hover {
