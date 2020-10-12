@@ -4,13 +4,17 @@
   height: min-content; }
 
 .navbar {
-  background-color: palevioletred;
   grid-column: 1 / 3;
-  grid-row: 3 / 10;
-  text-align: center; }
+  grid-row: 3 / 10; }
+  .navbar h3 {
+    width: 60%;
+    height: auto;
+    align-items: center; }
+    .navbar h3:hover {
+      cursor: pointer;
+      background-color: silver; }
 
 .content {
-  background-color: royalblue;
   grid-column: 3 / 10;
   grid-row: 3 / 10; }
 
@@ -85,7 +89,8 @@ html {
 
 body {
   font-weight: 300;
-  line-height: 1.6; }
+  line-height: 1.6;
+  background-color: rgba(238, 238, 238, 0.8); }
 
 .container {
   display: grid;
@@ -93,7 +98,6 @@ body {
   grid-template-rows: repeat(10, 10vh); }
 
 .header {
-  background-color: rgba(238, 238, 238, 0.8);
   grid-row: 1 / 3;
   grid-column: 1 / -1;
   display: grid;
