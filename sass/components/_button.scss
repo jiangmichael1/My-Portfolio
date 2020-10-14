@@ -3,12 +3,21 @@
     padding: 1rem 2rem;
     width: max-content;
     height: min-content;
-    border-style: none;
+    outline-style: none;
+    border-style: solid;
+    box-shadow: 5px 3px 3px rgb(148, 148, 148);
 
     font-family: 'Raleway', sans-serif;
     font-size: 3.6rem;
     font-weight: 400;
+    transition: filter .3s;
 
-    cursor: pointer;
-    
+    &:hover {
+        cursor: pointer;
+        filter: brightness(.8);
+    }
+
+    &:active {
+        transform: translateY(3px);
+    }
 }
