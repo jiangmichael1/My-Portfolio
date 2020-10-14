@@ -1,7 +1,12 @@
 .btn {
   padding: 1rem 2rem;
   width: max-content;
-  height: min-content; }
+  height: min-content;
+  border-style: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.6rem;
+  font-weight: 400;
+  cursor: pointer; }
 
 .navbar {
   grid-column: 1 / 3;
