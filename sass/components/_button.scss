@@ -1,10 +1,11 @@
 .btn {
-
+    background-color: #ebebeb;
     padding: 1rem 2rem;
     width: max-content;
     height: min-content;
     outline-style: none;
-    border-style: solid;
+    border-style: none;
+    border-radius: 3px;
     box-shadow: 5px 3px 3px rgb(148, 148, 148);
 
     font-family: 'Raleway', sans-serif;
@@ -15,6 +16,7 @@
     &:hover {
         cursor: pointer;
         filter: brightness(.8);
+        
     }
 
     &:active {

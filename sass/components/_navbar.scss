@@ -4,14 +4,16 @@
     grid-row: 4 / 10;
     
     h3 {
-
-        
-        
         align-items: center;
+        margin-top: 5rem;
+        padding: 3px 1rem;
+        border-radius: 3px;
+        transition: all .3s;
 
         &:hover {
             cursor: pointer;
             background-color: silver;
+            transform: translateX(5px);
         }
     }
 }

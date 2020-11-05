@@ -3,3 +3,9 @@
     grid-column: 3 / 10;
     grid-row: 4 / 10;
 }
+
+.active {
+    display: grid;
+    grid-column: 4 / 8;
+    grid-row: 5 / 6;
+}

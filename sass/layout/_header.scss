@@ -4,7 +4,7 @@
     grid-column: 1 / -1; 
     display: grid;
     grid-template-columns: repeat(10, 1fr); 
-
+    grid-column-gap: 2rem;
     justify-content: space-between;
     align-items: center;
     
@@ -15,9 +15,8 @@
     }
 
     &__resume {
-
+        margin-left: 5rem;
         grid-column: 9 / 10;
-        
     }
 
     &__img {
