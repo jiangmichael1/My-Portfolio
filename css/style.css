@@ -1,19 +1,19 @@
 .btn {
-  background-color: #ebebeb;
+  background-color: #D3ECEE;
   padding: 1rem 2rem;
   width: max-content;
   height: min-content;
   outline-style: none;
   border-style: none;
   border-radius: 3px;
-  box-shadow: 5px 3px 3px #949494;
+  box-shadow: 5px 3px 3px #457B9D;
   font-family: 'Raleway', sans-serif;
   font-size: 3.6rem;
   font-weight: 400;
   transition: filter .3s; }
   .btn:hover {
     cursor: pointer;
-    filter: brightness(0.8); }
+    filter: brightness(0.88); }
   .btn:active {
     transform: translateY(3px); }
 
@@ -21,15 +21,17 @@
   grid-column: 2 / 3;
   grid-row: 4 / 10; }
   .navbar h3 {
+    width: max-content;
     align-items: center;
     margin-top: 5rem;
-    padding: 3px 1rem;
+    padding: 1rem 1.5rem;
     border-radius: 3px;
-    transition: all .3s; }
+    transition: all .3s;
+    position: relative; }
     .navbar h3:hover {
       cursor: pointer;
-      background-color: silver;
-      transform: translateX(5px); }
+      background-color: #CBEDC0;
+      transform: translateX(1rem); }
 
 .content {
   grid-column: 3 / 10;
@@ -37,8 +39,8 @@
 
 .active {
   display: grid;
-  grid-column: 4 / 8;
-  grid-row: 5 / 6; }
+  grid-column: 4 / 10;
+  grid-row: 5 / 10; }
 
 p {
   font-family: 'Montserrat', sans-serif; }
@@ -49,7 +51,8 @@ h1, h2, h3 {
 h3 {
   font-size: 3.2rem;
   font-weight: 400;
-  line-height: 1.3; }
+  line-height: 1.3;
+  letter-spacing: 1.3px; }
 
 ion-icon {
   font-size: 40px; }
@@ -66,37 +69,37 @@ ion-icon {
   color: #6001D2;
   transition: all .3s; }
   .header__icons--yahoo:hover {
-    transform: scale(1.3); }
+    transform: scale(1.4); }
 
 .header__icons--github {
   color: #181717;
   transition: all .3s; }
   .header__icons--github:hover {
-    transform: scale(1.3); }
+    transform: scale(1.4); }
 
 .header__icons--gmail {
   color: #D14836;
   transition: all .3s; }
   .header__icons--gmail:hover {
-    transform: scale(1.3); }
+    transform: scale(1.4); }
 
 .header__icons--linkedin {
   color: #0077B5;
   transition: all .3s; }
   .header__icons--linkedin:hover {
-    transform: scale(1.3); }
+    transform: scale(1.4); }
 
 .header__icons--medium {
   color: #12100E;
   transition: all .3s; }
   .header__icons--medium:hover {
-    transform: scale(1.3); }
+    transform: scale(1.4); }
 
 .header__icons--twitter {
   color: #1DA1F2;
   transition: all .3s; }
   .header__icons--twitter:hover {
-    transform: scale(1.3); }
+    transform: scale(1.4); }
 
 *,
 *::before,
@@ -112,7 +115,7 @@ html {
 body {
   font-weight: 300;
   line-height: 1.6;
-  background-color: rgba(238, 238, 238, 0.8); }
+  background-color: #F1FaEE; }
 
 .container {
   display: grid;
@@ -128,10 +131,9 @@ body {
   justify-content: space-between;
   align-items: center; }
   .header__icons {
-    margin-left: -5rem;
-    grid-column: 5 / 7; }
+    margin-left: 3rem;
+    grid-column: 5 / 8; }
   .header__resume {
-    margin-left: 5rem;
     grid-column: 9 / 10; }
   .header__img {
     grid-row: 1 / 2;
@@ -146,12 +148,25 @@ body {
     .header__img:hover {
       cursor: pointer; }
 
+.header:after {
+  content: "";
+  display: block;
+  width: 10vw;
+  height: 2px;
+  background: #555;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25%; }
+
 .about_me p {
   font-size: 2.4rem;
-  font-weight: 400; }
+  font-weight: 400;
+  margin: 2rem 2rem; }
 
 .about_me__flatiron-img {
   height: 7vh;
   width: auto;
-  margin-left: 1rem;
-  margin-right: 1rem; }
+  margin: 0 1rem;
+  padding: 1px;
+  vertical-align: middle; }

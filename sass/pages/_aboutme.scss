@@ -3,13 +3,16 @@
     p {
         font-size: 2.4rem;
         font-weight: 400; 
+        margin: 2rem 2rem;
     }
 
     &__flatiron-img {
         height: 7vh;
         width: auto;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin: 0 1rem;
+        padding: 1px;
+        vertical-align: middle;
+        
     } 
 }
 

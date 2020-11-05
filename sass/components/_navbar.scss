@@ -4,16 +4,21 @@
     grid-row: 4 / 10;
     
     h3 {
+        width: max-content;
         align-items: center;
         margin-top: 5rem;
-        padding: 3px 1rem;
+        padding: 1rem 1.5rem;
         border-radius: 3px;
         transition: all .3s;
+        position: relative;
 
         &:hover {
             cursor: pointer;
-            background-color: silver;
-            transform: translateX(5px);
+            background-color: $secondary-green-1;
+            transform: translateX(1rem); 
         }
     }
+
+  
 }
+
