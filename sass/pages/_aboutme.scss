@@ -1,0 +1,16 @@
+.about_me {
+
+    p {
+        font-size: 2.4rem;
+        font-weight: 400; 
+    }
+
+    &__flatiron-img {
+        height: 7vh;
+        width: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    } 
+}
+
+// Make each sentence slide down from the top
