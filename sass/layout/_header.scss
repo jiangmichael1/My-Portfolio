@@ -40,9 +40,10 @@
 .header:after {
     content: "";
     display: block;
-    width: 10vw;
+    width: 10vh;
     height: 2px;
-    background: #555;
+    background: $secondary-blue-1;
+    border-style: none;
     position: absolute;
     left: 50%;
     transform: translateX(-50%); 
