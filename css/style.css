@@ -33,17 +33,26 @@
       background-color: #CBEDC0;
       transform: translateX(1rem); }
 
+.navbar:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 10vh;
+  background: #457B9D;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 25vw; }
+
 .content {
   grid-column: 3 / 10;
   grid-row: 4 / 10; }
 
-.active {
-  display: grid;
-  grid-column: 4 / 10;
-  grid-row: 5 / 10; }
-
 p {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 2rem 2rem; }
 
 h1, h2, h3 {
   font-family: 'Raleway', sans-serif; }
@@ -151,18 +160,14 @@ body {
 .header:after {
   content: "";
   display: block;
-  width: 10vw;
+  width: 10vh;
   height: 2px;
-  background: #555;
+  background: #457B9D;
+  border-style: none;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 25%; }
-
-.about_me p {
-  font-size: 2.4rem;
-  font-weight: 400;
-  margin: 2rem 2rem; }
 
 .about_me__flatiron-img {
   height: 7vh;
@@ -170,3 +175,6 @@ body {
   margin: 0 1rem;
   padding: 1px;
   vertical-align: middle; }
+
+.education {
+  display: none; }
