@@ -3,19 +3,17 @@
     grid-row: 2 / 3; 
     grid-column: 1 / -1; 
     display: grid;
-    grid-template-columns: repeat(10, 1fr); 
+    grid-template-columns: repeat(10, 1fr);
     grid-column-gap: 2rem;
     justify-content: space-between;
     align-items: center;
     
     &__icons{
-        margin-left: -5rem;
-        grid-column: 5 / 7;
-  
+        margin-left: 3rem;
+        grid-column: 5 / 8;
     }
 
     &__resume {
-        margin-left: 5rem;
         grid-column: 9 / 10;
     }
 
@@ -38,3 +36,15 @@
         }
     } 
 }    
+
+.header:after {
+    content: "";
+    display: block;
+    width: 10vw;
+    height: 2px;
+    background: #555;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    top: 25%;
+}

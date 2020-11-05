@@ -1,12 +1,12 @@
 .btn {
-    background-color: #ebebeb;
+    background-color: $primary-blue;
     padding: 1rem 2rem;
     width: max-content;
     height: min-content;
     outline-style: none;
     border-style: none;
     border-radius: 3px;
-    box-shadow: 5px 3px 3px rgb(148, 148, 148);
+    box-shadow: 5px 3px 3px $secondary-blue-1;
 
     font-family: 'Raleway', sans-serif;
     font-size: 3.6rem;
@@ -15,7 +15,7 @@
 
     &:hover {
         cursor: pointer;
-        filter: brightness(.8);
+        filter: brightness(.88);
         
     }
 
