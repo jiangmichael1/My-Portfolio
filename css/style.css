@@ -45,7 +45,7 @@
   left: 25vw; }
 
 .content {
-  grid-column: 3 / 10;
+  grid-column: 4 / 10;
   grid-row: 4 / 10; }
 
 p {
@@ -177,4 +177,4 @@ body {
   vertical-align: middle; }
 
 .education {
-  display: none; }
+  display: grid; }
