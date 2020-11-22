@@ -169,12 +169,37 @@ body {
   transform: translateX(-50%);
   top: 25%; }
 
-.about_me__flatiron-img {
-  height: 7vh;
-  width: auto;
-  margin: 0 1rem;
-  padding: 1px;
-  vertical-align: middle; }
+.about_me img {
+  margin: 1rem 2rem;
+  background-color: white;
+  padding: 1rem 2rem;
+  width: max-content;
+  height: auto;
+  outline-style: none;
+  border-style: none;
+  border-radius: 3px;
+  box-shadow: 5px 3px 3px #457B9D;
+  transition: all .3s; }
+  .about_me img:hover {
+    filter: brightness(0.88);
+    transform: scale(1.07);
+    box-shadow: 7px 5px 5px #1D3557; }
 
 .education {
   display: grid; }
+  .education img {
+    transition: all .3s; }
+    .education img:hover {
+      transform: scale(1.075); }
+  .education__flatiron-img {
+    height: 7vh;
+    width: auto;
+    margin: 0 1rem;
+    padding: 1px;
+    vertical-align: middle; }
+  .education__baruch-img {
+    height: 7vh;
+    width: auto;
+    margin: 0 1rem;
+    padding: 1px;
+    vertical-align: middle; }
