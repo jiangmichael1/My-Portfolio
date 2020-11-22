@@ -10,6 +10,7 @@
     }
 
     &__flatiron-img {
+        background-color: white;
         height: 7vh;
         width: auto;
         margin: 0 1rem;
@@ -24,4 +25,12 @@
         padding: 1px;
         vertical-align: middle;
     } 
+
+    &__bxsci-img {
+        height: 10vh;
+        width: auto;
+        margin: 0 1rem;
+        padding: 1px;
+        vertical-align: middle;
+    }
 }
