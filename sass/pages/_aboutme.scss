@@ -1,14 +1,24 @@
 .about_me {
     
+    img {
+        margin: 1rem 2rem;
+        background-color: white;
+        padding: 1rem 2rem;
+        width: max-content;
+        height: auto;
+        outline-style: none;
+        border-style: none;
+        border-radius: 3px;
+        box-shadow: 5px 3px 3px $secondary-blue-1;
+        transition: all .3s;
 
-    &__flatiron-img {
-        height: 7vh;
-        width: auto;
-        margin: 0 1rem;
-        padding: 1px;
-        vertical-align: middle;
-        
-    } 
+        &:hover {
+            filter: brightness(.88);
+            transform: scale(1.07);
+            box-shadow: 7px 5px 5px $secondary-blue-2;
+        }
+    }
+
 }
 
 // Make each sentence slide down from the top
