@@ -17,6 +17,10 @@
             background-color: $secondary-green-1;
             transform: translateX(1rem); 
         }
+
+        &:active {
+            transform: translateX(3rem); 
+        }
     }
 
   

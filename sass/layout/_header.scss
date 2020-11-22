@@ -10,7 +10,6 @@
     
     
     &__icons{
-        margin-left: 3rem;
         grid-column: 5 / 8;
     }
 
@@ -22,7 +21,7 @@
     
         grid-row: 1 / 2;
         grid-column: 3 / 4;
-        transition: all .65s;
+        transition: all .7s;
         perspective: 150rem;
 
 
@@ -41,6 +40,7 @@
             background-color: $primary-green;
             transform: rotateY(180deg);
             height: 100%;
+            width: 100%;
             top: 0;
             left: 0;
             border-radius: 50%;

@@ -1,12 +1,12 @@
 .btn {
-  background-color: #D3ECEE;
+  background-color: #F0F9F9;
   padding: 1rem 2rem;
   width: max-content;
   height: min-content;
   outline-style: none;
   border-style: none;
   border-radius: 3px;
-  box-shadow: 5px 3px 3px #457B9D;
+  box-shadow: 0 0.5rem 1rem #457B9D;
   font-family: 'Raleway', sans-serif;
   font-size: 3.6rem;
   font-weight: 400;
@@ -32,6 +32,8 @@
       cursor: pointer;
       background-color: #CBEDC0;
       transform: translateX(1rem); }
+    .navbar h3:active {
+      transform: translateX(3rem); }
 
 .navbar:after {
   content: "";
@@ -140,14 +142,13 @@ body {
   justify-content: space-between;
   align-items: center; }
   .header__icons {
-    margin-left: 3rem;
     grid-column: 5 / 8; }
   .header__resume {
     grid-column: 9 / 10; }
   .header__img {
     grid-row: 1 / 2;
     grid-column: 3 / 4;
-    transition: all .65s;
+    transition: all .7s;
     perspective: 150rem; }
     .header__img img {
       width: auto;
@@ -162,6 +163,7 @@ body {
       background-color: #F1FaEE;
       transform: rotateY(180deg);
       height: 100%;
+      width: 100%;
       top: 0;
       left: 0;
       border-radius: 50%;
@@ -192,7 +194,7 @@ body {
 
 .about_me img {
   margin: 1rem 2rem;
-  background-color: white;
+  background-color: #F0F9F9;
   padding: 1rem 2rem;
   width: max-content;
   height: auto;
@@ -213,6 +215,7 @@ body {
     .education img:hover {
       transform: scale(1.075); }
   .education__flatiron-img {
+    background-color: white;
     height: 7vh;
     width: auto;
     margin: 0 1rem;
@@ -220,6 +223,12 @@ body {
     vertical-align: middle; }
   .education__baruch-img {
     height: 7vh;
+    width: auto;
+    margin: 0 1rem;
+    padding: 1px;
+    vertical-align: middle; }
+  .education__bxsci-img {
+    height: 10vh;
     width: auto;
     margin: 0 1rem;
     padding: 1px;
