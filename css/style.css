@@ -56,7 +56,8 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
-  margin: 2rem 2rem; }
+  margin: 2rem 2rem;
+  letter-spacing: .35px; }
 
 h1, h2, h3 {
   font-family: 'Raleway', sans-serif; }
@@ -197,6 +198,9 @@ body {
   transform: translateX(-50%);
   top: 25%; }
 
+.landing {
+  display: none; }
+
 .about_me {
   display: none; }
   .about_me img {
@@ -214,6 +218,9 @@ body {
       filter: brightness(0.88);
       transform: scale(1.07);
       box-shadow: 7px 5px 5px #1D3557; }
+
+.contact {
+  display: none; }
 
 .education {
   display: none; }
@@ -240,3 +247,9 @@ body {
     margin: 0 1rem;
     padding: 1px;
     vertical-align: middle; }
+
+.projects {
+  display: none; }
+
+.work {
+  display: none; }
