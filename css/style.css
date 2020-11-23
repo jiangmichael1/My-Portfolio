@@ -216,7 +216,7 @@ body {
       box-shadow: 7px 5px 5px #1D3557; }
 
 .education {
-  display: grid; }
+  display: none; }
   .education img {
     transition: all .3s; }
     .education img:hover {
