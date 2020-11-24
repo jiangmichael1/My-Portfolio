@@ -39,13 +39,14 @@ ion-icon {
         transition: all .3s;
 
         &:hover {
-            transform: scale(1.4);  
+            transform: scale(1.4);
         }
     }
 
     &--github {
         color: #181717; 
-        transition: all .3s;
+        transition: all .5s;
+        border-radius: 50%;
 
         &:hover {
             transform: scale(1.4); 
