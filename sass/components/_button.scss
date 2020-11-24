@@ -11,12 +11,11 @@
     font-family: 'Raleway', sans-serif;
     font-size: 3.6rem;
     font-weight: 400;
-    transition: filter .3s;
+    transition: all .3s;
 
     &:hover {
         cursor: pointer;
-        filter: brightness(.88);
-        
+        filter: brightness(.90);
     }
 
     &:active {
