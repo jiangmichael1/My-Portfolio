@@ -10,10 +10,10 @@
   font-family: 'Raleway', sans-serif;
   font-size: 3.6rem;
   font-weight: 400;
-  transition: filter .3s; }
+  transition: all .3s; }
   .btn:hover {
     cursor: pointer;
-    filter: brightness(0.88); }
+    filter: brightness(0.9); }
   .btn:active {
     transform: translateY(3px); }
 
@@ -252,3 +252,9 @@ body {
 
 .work {
   display: none; }
+  .work__nav {
+    justify-content: start; }
+    .work__nav * {
+      height: 9rem;
+      width: auto;
+      margin-left: 2rem; }
