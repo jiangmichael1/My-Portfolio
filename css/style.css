@@ -15,7 +15,7 @@
     cursor: pointer;
     filter: brightness(0.9); }
   .btn:active {
-    transform: translateY(3px); }
+    transform: translateY(0.5rem); }
 
 .navbar {
   grid-column: 2 / 3;
@@ -39,7 +39,7 @@
   content: "";
   display: block;
   width: 2px;
-  height: 10vh;
+  height: 5vh;
   background: #457B9D;
   position: fixed;
   top: 50%;
@@ -78,12 +78,6 @@ ion-icon {
     filter: none; }
   .header__icons > *:not(:last-child) {
     margin-right: 2rem; }
-
-.header__icons--yahoo {
-  color: #6001D2;
-  transition: all .3s; }
-  .header__icons--yahoo:hover {
-    transform: scale(1.4); }
 
 .header__icons--github {
   color: #181717;
@@ -252,9 +246,7 @@ body {
 
 .work {
   display: none; }
-  .work__nav {
-    justify-content: start; }
-    .work__nav * {
-      height: 9rem;
-      width: auto;
-      margin-left: 2rem; }
+  .work__nav * {
+    height: 6rem;
+    width: auto;
+    margin-left: 1rem; }

@@ -22,15 +22,13 @@
             transform: translateX(3rem); 
         }
     }
-
-  
 }
 
 .navbar:after {
     content: "";
     display: block;
     width: 2px;
-    height: 10vh;
+    height: 5vh;
     background: $secondary-blue-1;
     position: fixed; 
     top: 50%;
