@@ -8,7 +8,6 @@
     justify-content: space-between;
     align-items: center;
     
-    
     &__icons{
         grid-column: 5 / 8;
     }
@@ -23,7 +22,6 @@
         grid-column: 3 / 4;
         transition: all .7s;
         perspective: 150rem;
-
 
         img {
             width: auto;
@@ -67,7 +65,6 @@
             transform: rotateY(-180deg);
             opacity: 0;
         }
-        
     }
 }    
 
