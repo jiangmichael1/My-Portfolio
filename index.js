@@ -1,3 +1,4 @@
+// Header and Navbar selectors
 const header = document.querySelector('.header');
 const navBar = document.querySelector('.navbar');
 const aboutSect = document.querySelector('.about_me');
@@ -8,6 +9,8 @@ const projSect = document.querySelector('.projects');
 const contSect = document.querySelector('.contact');
 const navBarSections = [aboutSect, workSect, eduSect, projSect, contSect, landSect];
 
+
+// Make landing page show upon arrival
 const displayLanding = () => {
     if (landSect.style.display !== "block"){
         landSect.style.display = "block";
@@ -16,6 +19,7 @@ const displayLanding = () => {
 
 displayLanding();
 
+// Toggle which section to display
 const toggleSection = (section) => {
     let filteredSections = navBarSections.filter(sect => sect !== section)
 
@@ -23,11 +27,16 @@ const toggleSection = (section) => {
         sect.style.display = 'none';
     })
 
-    section.style.display = "block";
+    if (section === workSect) {
+        section.style.display = "flex";
+    } else {
+        section.style.display = "block";
+    }
 }
 
+// Click name to show landing page intro
 header.addEventListener('click', (e) => {
-    if (e.target.textContent === "Michael Jiang") {
+    if (e.target.className === "header__img header__img--text" || e.target.textContent === "Michael Jiang") {
         toggleSection(landSect);
     }
 })
@@ -44,4 +53,21 @@ navBar.addEventListener('click', (e) => {
     } else if (e.target.className === "navbar--contact") {
         toggleSection(contSect);
     } 
+})
+
+// Work Section
+const workNav = document.querySelector('.work__nav');
+const sano = document.querySelector('.work__nav--sano-img btn')
+const ccny = document.querySelector('.work__nav--ccny-img btn')
+const elm = document.querySelector('.work__nav--hplus-img btn')
+const math = document.querySelector('.work__nav--math-img btn')
+
+const workNavItems = []
+
+const toggleWorkText = (text) => {
+
+}
+
+workNav.addEventListener('click', (e) => {
+    console.log(e.target);
 })
