@@ -149,7 +149,7 @@ body {
     perspective: 150rem; }
     .header__img img {
       width: auto;
-      height: 23vh;
+      height: 20vh;
       object-fit: cover;
       border-radius: 50%;
       position: relative;

@@ -1,13 +1,39 @@
 .work {
 
     display: none;
-
+    flex-direction: column;
+    
     &__nav {
-
-        * {
+        
+        align-self: flex-start;
+        
+        
+        &--sano-img {
             height: 6rem;
             width: auto;
             margin-left: 1rem;
         }
+
+        &--ccny-img {
+            height: 6rem;
+            width: auto;
+            margin-left: 1rem;
+        }
+
+        &--math-img {
+            height: 6rem;
+            width: auto;
+            margin-left: 1rem;
+        }
+
+        &--hplus-img {
+            height: 6rem;
+            width: auto;
+            
+            margin-left: 1rem;
+    
+        }
     }
+
+
 }
