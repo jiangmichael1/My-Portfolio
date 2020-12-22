@@ -1,12 +1,11 @@
 .work {
-
     display: none;
     flex-direction: column;
-    
     &__nav {
-        
+        list-style: none;
+        display: flex;
+        flex-direction: row;
         align-self: flex-start;
-        
         
         &--sano-img {
             height: 6rem;
@@ -29,9 +28,7 @@
         &--hplus-img {
             height: 6rem;
             width: auto;
-            
             margin-left: 1rem;
-    
         }
     }
 
