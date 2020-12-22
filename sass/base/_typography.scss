@@ -2,7 +2,7 @@
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.4rem;
-    font-weight: 200; 
+    font-weight: 300; 
     margin: 2rem 2rem;
     letter-spacing: .35px;
 }
@@ -72,7 +72,7 @@ ion-icon {
     }
 
     &--medium {
-        color: #12100E;
+        color: #02b875; 
         transition: all .3s;
 
         &:hover {
@@ -83,7 +83,7 @@ ion-icon {
     &--twitter {
         color: #1DA1F2;
         transition: all .3s;
-
+ 
         &:hover {
             transform: scale(1.4);
         }
