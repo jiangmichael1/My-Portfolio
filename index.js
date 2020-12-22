@@ -57,17 +57,38 @@ navBar.addEventListener('click', (e) => {
 
 // Work Section
 const workNav = document.querySelector('.work__nav');
-const sano = document.querySelector('.work__nav--sano-img btn')
-const ccny = document.querySelector('.work__nav--ccny-img btn')
-const elm = document.querySelector('.work__nav--hplus-img btn')
-const math = document.querySelector('.work__nav--math-img btn')
+const sano = document.querySelector('.work__nav--sano-img btn');
+const ccny = document.querySelector('.work__nav--ccny-img btn');
+const elm = document.querySelector('.work__nav--hplus-img btn');
+const math = document.querySelector('.work__nav--math-img btn');
+const sanoText = document.querySelector('.sanoText');
+const ccnyText = document.querySelector('.ccnyText');
+const elmText = document.querySelector('.elmText');
+const mathText = document.querySelector('.mathText');
+const instText = document.querySelector('.instructions');
 
-const workNavItems = []
+const workNavItems = [sano, ccny, elm, math];
+const workNavText = [sanoText, ccnyText, elmText, mathText, instText];
+
+const noneTextDisplay = () => {
+    workNavText.forEach(text => text.style.display = "none");
+    instText.style.display = "block";
+}
+// Remove all work text except instructions
+noneTextDisplay();
 
 const toggleWorkText = (text) => {
 
 }
 
 workNav.addEventListener('click', (e) => {
-    console.log(e.target);
+    if (e.target.className === "work__nav--sano-img btn") {
+        
+    } else if (e.target.className === "work__nav--ccny-img btn") {
+        console.log("CCNY!")
+    } else if (e.target.className === "work__nav--hplus-img btn") {
+        console.log("Elmhurst!")
+    } else if (e.target.className === "work__nav--math-img btn") {
+        console.log("Mathnasium!")
+    }
 })
