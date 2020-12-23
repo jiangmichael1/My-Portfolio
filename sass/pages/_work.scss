@@ -1,6 +1,31 @@
 .work {
     display: none;
     flex-direction: column;
+
+    p {
+        margin: 2rem 0 1.5rem -.5rem;
+        font-size: 18px;
+    }
+
+    h1 {
+        margin-bottom: .5rem;
+    }
+
+    h4 {
+        margin-bottom: 1rem;
+    }
+
+    a, a:link, a:active, a:visited {
+        text-decoration: none;
+        color: black;
+        transition: all .3s;
+    }
+
+    a:hover {
+        color: $secondary-blue-1;
+        text-shadow: 0 0 1rem rgba($secondary-blue-1, .45);
+    }
+
     &__nav {
         list-style: none;
         display: flex;
@@ -31,6 +56,22 @@
             margin-left: 1rem;
         }
     }
+}
 
+.work__sanoText {
+    margin: 2rem 1rem;
 
+   
+}
+
+.work__ccnyText {
+    margin: 2rem 1rem; 
+}
+
+.work__elmText {
+    margin: 2rem 1rem;
+}
+
+.work__mathText {
+    margin: 2rem 1rem;
 }
