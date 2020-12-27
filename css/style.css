@@ -238,6 +238,12 @@ body {
     transition: all .3s; }
     .education img:hover {
       transform: scale(1.075); }
+  .education__ccny-img {
+    height: 10vh;
+    width: auto;
+    margin: 0 1rem;
+    padding: 1px;
+    vertical-align: middle; }
   .education__flatiron-img {
     background-color: white;
     height: 7vh;
