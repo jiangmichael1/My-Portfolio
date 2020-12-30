@@ -1,3 +1,43 @@
 .projects {
     display: none;
+
+    ul {
+        list-style: none;
+    }
+    
+    &__nav {
+        &--portfolio {
+            height: 10rem;
+            width: auto;
+        }
+    
+        &--date {
+            height: 10rem;
+            width: auto;
+        }
+    
+        &--news {
+            height: 10rem;
+            width: auto;
+        }
+    
+        &--game {
+            height: 10rem;
+            width: auto;
+        }
+    
+        &--beer {
+            height: 10rem;
+            width: auto;
+        }
+    
+        &--club {
+            height: 10rem;
+            width: auto;
+        }
+    }
+
+   
+
 }
+
