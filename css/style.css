@@ -269,24 +269,28 @@ body {
   display: none; }
   .projects ul {
     list-style: none; }
-  .projects__nav--portfolio {
-    height: 10rem;
-    width: auto; }
-  .projects__nav--date {
-    height: 10rem;
-    width: auto; }
-  .projects__nav--news {
-    height: 10rem;
-    width: auto; }
-  .projects__nav--game {
-    height: 10rem;
-    width: auto; }
-  .projects__nav--beer {
-    height: 10rem;
-    width: auto; }
-  .projects__nav--club {
-    height: 10rem;
-    width: auto; }
+  .projects__instructions {
+    font-size: 18px; }
+  .projects__nav {
+    display: flex;
+    flex-direction: row; }
+    .projects__nav > * {
+      margin-left: 1.5rem; }
+    .projects__nav--portfolio {
+      height: 10rem;
+      width: auto; }
+    .projects__nav--date {
+      height: 10rem;
+      width: auto; }
+    .projects__nav--news {
+      height: 10rem;
+      width: auto; }
+    .projects__nav--game {
+      height: 10rem;
+      width: auto; }
+    .projects__nav--beer {
+      height: 10rem;
+      width: auto; }
 
 .work {
   display: none;

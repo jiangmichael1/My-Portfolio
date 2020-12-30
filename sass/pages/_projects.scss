@@ -5,7 +5,18 @@
         list-style: none;
     }
     
+    &__instructions {
+        font-size: 18px;
+    }
+
     &__nav {
+        display: flex;
+        flex-direction: row;
+
+        & > * {
+            margin-left: 1.5rem;
+        }
+
         &--portfolio {
             height: 10rem;
             width: auto;
@@ -27,11 +38,6 @@
         }
     
         &--beer {
-            height: 10rem;
-            width: auto;
-        }
-    
-        &--club {
             height: 10rem;
             width: auto;
         }
