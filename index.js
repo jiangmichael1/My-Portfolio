@@ -56,14 +56,17 @@ navBar.addEventListener('click', (e) => {
 
 // Work Section
 const workNav = document.querySelector('.work__nav');
+
 const sano = document.querySelector('.work__nav--sano-img btn');
 const ccny = document.querySelector('.work__nav--ccny-img btn');
 const elm = document.querySelector('.work__nav--hplus-img btn');
 const math = document.querySelector('.work__nav--math-img btn');
+
 const sanoText = document.querySelector('.work__sanoText');
 const ccnyText = document.querySelector('.work__ccnyText');
 const elmText = document.querySelector('.work__elmText');
 const mathText = document.querySelector('.work__mathText');
+
 const instText = document.querySelector('.work__instructions');
 
 const workNavItems = [sano, ccny, elm, math];
@@ -100,4 +103,32 @@ workNav.addEventListener('click', (e) => {
 })
 
 // Projects Section
+const projNav = document.querySelector('.projects__nav');
 
+const projNavPort = document.querySelector('.projects__nav--portfolio btn');
+const projNavDate = document.querySelector('.projects__nav--date btn');
+const projNavNews = document.querySelector('.projects__nav--news btn');
+const projNavGame = document.querySelector('.projects__nav--game btn');
+const projNavBeer = document.querySelector('.projects__nav--beer btn');
+
+const projPort = document.querySelector('.projects__portfolio');
+const projDate = document.querySelector('.projects__date');
+const projNews = document.querySelector('.projects__news');
+const projGame = document.querySelector('.projects__game');
+const projBeer = document.querySelector('.projects__beer');
+
+const projInst = document.querySelector('.projects__instructions');
+
+projNav.addEventListener('click', (e) => {
+    if (e.target.className === "projects__nav--portfolio btn") {
+        console.log("portfolio");
+    } else if (e.target.className === "projects__nav--date btn") {
+        console.log("date");
+    } else if (e.target.className === "projects__nav--news btn") {
+        console.log("news");
+    } else if (e.target.className === "projects__nav--game btn") {
+        console.log("game");
+    } else if (e.target.className === "projects__nav--beer btn") {
+        console.log("beer");
+    }
+})
