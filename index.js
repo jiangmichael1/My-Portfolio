@@ -9,7 +9,6 @@ const projSect = document.querySelector('.projects');
 const contSect = document.querySelector('.contact');
 const navBarSections = [aboutSect, workSect, eduSect, projSect, contSect, landSect];
 
-
 // Make landing page show upon arrival
 const displayLanding = () => {
     if (landSect.style.display !== "block"){
@@ -82,7 +81,6 @@ const toggleWorkText = (text) => {
     if (instText.style.display === "block") {
         instText.style.display = "none"
     }
-    
     let filteredText = workNavText.filter(t => t !== text);
     filteredText.forEach(item => item.style.display = "none");
     text.style.display = "block";
@@ -100,3 +98,6 @@ workNav.addEventListener('click', (e) => {
         toggleWorkText(mathText);
     }
 })
+
+// Projects Section
+
