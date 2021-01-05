@@ -117,18 +117,36 @@ const projNews = document.querySelector('.projects__news');
 const projGame = document.querySelector('.projects__game');
 const projBeer = document.querySelector('.projects__beer');
 
+const projNavText = [projPort, projDate, projNews, projGame, projBeer];
 const projInst = document.querySelector('.projects__instructions');
+
+const noneProjTextDisplay = () => {
+    projNavText.forEach(text => text.style.display = "none");
+    projInst.style.display = "block";
+}
+
+noneProjTextDisplay();
+
+const toggleProjText = (text) => {
+    // Remove instructions
+    if (projInst.style.display === "block") {
+        projInst.style.display = "none"
+    }
+    let filteredText = projNavText.filter(t => t !== text);
+    filteredText.forEach(item => item.style.display = "none");
+    text.style.display = "block";
+}
 
 projNav.addEventListener('click', (e) => {
     if (e.target.className === "projects__nav--portfolio btn") {
-        console.log("portfolio");
+        toggleProjText(projPort);
     } else if (e.target.className === "projects__nav--date btn") {
-        console.log("date");
+        toggleProjText(projDate);
     } else if (e.target.className === "projects__nav--news btn") {
-        console.log("news");
+        toggleProjText(projNews);
     } else if (e.target.className === "projects__nav--game btn") {
-        console.log("game");
+        toggleProjText(projGame);
     } else if (e.target.className === "projects__nav--beer btn") {
-        console.log("beer");
+        toggleProjText(projBeer);
     }
 })
