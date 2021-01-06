@@ -141,7 +141,8 @@ html {
 body {
   font-weight: 300;
   line-height: 1.6;
-  background-color: #F1FaEE; }
+  background-color: #F1FaEE;
+  color: #1D3557; }
 
 .container {
   display: grid;
@@ -267,6 +268,13 @@ body {
 
 .projects {
   display: none; }
+  .projects a {
+    margin: .5rem 1.5rem .5rem 0;
+    font-size: 14px;
+    text-decoration: none; }
+    .projects a:visited, .projects a:active {
+      text-decoration: none;
+      color: black; }
   .projects p {
     margin: 2rem 0 1.5rem -.5rem;
     font-size: 18px; }
