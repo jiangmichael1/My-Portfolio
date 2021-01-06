@@ -2,13 +2,24 @@
     display: none;
 
     a{
-        margin: .5rem 1.5rem .5rem 0;
         font-size: 14px;
         text-decoration: none;
+        transition: all .3s;
 
         &:visited, &:active {
             text-decoration: none;
             color: black;
+        }
+
+        p {
+            margin: 1rem .5rem;
+            transition: all .3s;
+            width: max-content;
+            display: inline-block;
+
+            &:hover {
+                transform: translateY(-4px);
+            }
         }
     }
 
