@@ -150,3 +150,4 @@ projNav.addEventListener('click', (e) => {
         toggleProjText(projBeer);
     }
 })
+
