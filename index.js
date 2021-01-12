@@ -151,3 +151,10 @@ projNav.addEventListener('click', (e) => {
     }
 })
 
+anime({
+    targets: [".navbar--about", ".navbar--education", ".navbar--work", ".navbar--projects", ".navbar--contact"],
+    delay: anime.stagger(100, {start: 1500}),
+    translateX: 100,
+    background: "#CBEDC0",
+    direction: "alternate"
+})
