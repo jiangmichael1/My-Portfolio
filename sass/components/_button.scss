@@ -21,4 +21,9 @@
     &:active {
         transform: translateY(.5rem);
     }
+
+    @media screen and (max-width:1200px) {
+        padding: .35rem .6rem;
+    }
 }
+
