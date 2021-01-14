@@ -28,11 +28,21 @@
     content: "";
     display: block;
     width: 2px;
-    height: 5vh;
+    height: 10vh; 
     background: $secondary-blue-1;
     position: fixed; 
     top: 50%;
     transform: translateY(-50%);
-    left: 27vw;
+    left: 25%;
+
+    @media screen and (max-width: 1400px) {
+        left: 27.5%;
+        height: 7vh;
+    }
+
+    @media screen and (max-width: 1200px) {
+        left: 30%;
+        height: 6vh;
+    }
 }
  
