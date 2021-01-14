@@ -238,7 +238,8 @@ body {
       box-shadow: 7px 5px 5px #1D3557; }
 
 .contact {
-  display: none; }
+  display: none;
+  height: 110rem; }
 
 .education {
   display: none; }
