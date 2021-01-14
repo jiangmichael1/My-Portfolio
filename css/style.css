@@ -204,7 +204,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(10, 10vw);
-  grid-template-rows: 5vh repeat(10, 10vh); }
+  grid-template-rows: 5vh repeat(10, 9.5vh); }
 
 .header {
   grid-row: 2 / 3;
@@ -268,6 +268,9 @@ body {
   transform: translateX(-50%);
   top: 25%; }
 
+footer {
+  display: block; }
+
 .about_me {
   display: none; }
   .about_me img {
@@ -302,7 +305,7 @@ body {
 .education {
   display: none; }
   .education p {
-    line-height: 3; }
+    line-height: 2.4; }
   .education img {
     transition: all .3s; }
     .education img:hover {
