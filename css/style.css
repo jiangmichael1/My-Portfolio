@@ -16,6 +16,9 @@
     filter: brightness(0.9); }
   .btn:active {
     transform: translateY(0.5rem); }
+  @media screen and (max-width: 1200px) {
+    .btn {
+      padding: .35rem .6rem; } }
 
 .navbar {
   grid-column: 2 / 3;
@@ -51,7 +54,7 @@
       height: 7vh; } }
   @media screen and (max-width: 1200px) {
     .navbar:after {
-      left: 30%;
+      left: 29%;
       height: 6vh; } }
 
 .content {
@@ -140,6 +143,46 @@ ion-icon {
   transition: all .3s; }
   .header__icons--twitter:hover {
     transform: scale(1.4); }
+
+@media screen and (max-width: 1400px) {
+  p {
+    font-size: 2.1rem;
+    letter-spacing: .3px; }
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+    letter-spacing: .7px; }
+  h3 {
+    font-size: 2.9rem;
+    line-height: 1;
+    letter-spacing: .6px; }
+  h4 {
+    font-size: 2.3rem;
+    line-height: .9;
+    letter-spacing: .5px; }
+  h5 {
+    font-size: 1.9rem;
+    letter-spacing: .4px; } }
+
+@media screen and (max-width: 1200px) {
+  p {
+    font-size: 2rem;
+    letter-spacing: .3px; }
+  h1 {
+    font-size: 3.4rem;
+    line-height: 1;
+    letter-spacing: .7px; }
+  h3 {
+    font-size: 2.8rem;
+    line-height: 1;
+    letter-spacing: .6px; }
+  h4 {
+    font-size: 2.1rem;
+    line-height: .9;
+    letter-spacing: .5px; }
+  h5 {
+    font-size: 1.8rem;
+    letter-spacing: .4px; } }
 
 *,
 *::before,
@@ -242,6 +285,15 @@ body {
       filter: brightness(0.88);
       transform: scale(1.07);
       box-shadow: 7px 5px 5px #1D3557; }
+  @media screen and (max-width: 1400px) {
+    .about_me img {
+      margin: .8rem 1.6rem;
+      padding: .8rem 1.6rem;
+      box-shadow: 4px 2px 2px #457B9D;
+      transition: all .3s; }
+      .about_me img:hover {
+        transform: scale(1.06);
+        box-shadow: 6px 4px 4px #1D3557; } }
 
 .contact {
   display: none;
@@ -249,6 +301,8 @@ body {
 
 .education {
   display: none; }
+  .education p {
+    line-height: 3; }
   .education img {
     transition: all .3s; }
     .education img:hover {
@@ -278,6 +332,19 @@ body {
     margin: 0 1rem;
     padding: 1px;
     vertical-align: middle; }
+  @media screen and (max-width: 1400px) {
+    .education p {
+      line-height: 2.4; }
+    .education img:hover {
+      transform: scale(1.05); }
+    .education__ccny-img {
+      height: 8.5vh; }
+    .education__flatiron-img {
+      height: 6vh; }
+    .education__baruch-img {
+      height: 6vh; }
+    .education__bxsci-img {
+      height: 8.5vh; } }
 
 .projects {
   display: none; }

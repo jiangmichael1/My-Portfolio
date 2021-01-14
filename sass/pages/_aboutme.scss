@@ -20,6 +20,20 @@
         }
     }
 
+    @media screen and (max-width: 1400px) {
+        img {
+            margin: .8rem 1.6rem;
+            padding: .8rem 1.6rem;
+            box-shadow: 4px 2px 2px $secondary-blue-1;
+            transition: all .3s;
+    
+            &:hover {
+                transform: scale(1.06);
+                box-shadow: 6px 4px 4px $secondary-blue-2;
+            }
+        }
+    
+    }
 }
 
 // Make each sentence slide down from the top

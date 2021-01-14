@@ -1,6 +1,10 @@
 .education {
     display: none;
 
+    p {
+        line-height: 3;
+    }
+
     img {
         transition: all .3s;
         
@@ -40,5 +44,34 @@
         margin: 0 1rem;
         padding: 1px;
         vertical-align: middle;
+    }
+
+    @media screen and (max-width:1400px) {
+        p {
+            line-height: 2.4;
+        }
+    
+        img {  
+            &:hover {
+                transform: scale(1.050);
+            }
+        }
+    
+        &__ccny-img {
+            height: 8.5vh;
+        }
+    
+        &__flatiron-img {
+            height: 6vh;
+        } 
+    
+        &__baruch-img {
+            height: 6vh;
+        } 
+    
+        &__bxsci-img {
+            height: 8.5vh;
+        }
+        
     }
 }
