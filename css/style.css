@@ -59,8 +59,7 @@
 
 .content {
   grid-column: 4 / 10;
-  grid-row: 4 / 10;
-  margin-top: 3rem; }
+  grid-row: 4 / 11; }
 
 a {
   font-family: 'Montserrat', sans-serif;
@@ -266,10 +265,81 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 25%; }
+  top: 22.5%; }
 
 footer {
   display: block; }
+
+.landing {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(10, 5vw);
+  grid-template-rows: repeat(10, 5vh);
+  grid-gap: 1.5rem;
+  padding: 1.5rem; }
+  .landing__text-1 {
+    margin: 0;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1; }
+  .landing__text-2 {
+    margin: 0;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1; }
+  .landing__container {
+    display: grid;
+    grid-row: 3 / -1;
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(10, 5vw);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 1.5rem; }
+    .landing__container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 5px; }
+    .landing__container--baby_photo {
+      grid-row: 1 / span 3;
+      grid-column: 1 / span 2; }
+    .landing__container--beemo_subway {
+      grid-row: 7 / span 4;
+      grid-column: 6 / span 2; }
+    .landing__container--me_and_lis {
+      grid-row: 1 / span 4;
+      grid-column: 3 / span 3; }
+    .landing__container--bxsci_grad {
+      grid-row: 4 / span 4;
+      grid-column: 1 / span 1; }
+    .landing__container--mhc_grad {
+      grid-row: 1 / span 2;
+      grid-column: 6 / span 1; }
+    .landing__container--award_photo {
+      grid-row: 5 / span 4;
+      grid-column: 5 / span 1; }
+    .landing__container--bear_mtn {
+      grid-row: 5 / span 5;
+      grid-column: 10 / span 1; }
+    .landing__container--grass_selfie {
+      grid-row: 1 / span 2;
+      grid-column: 9 / span 2; }
+    .landing__container--beemo_nose {
+      grid-row: 8 / span 2;
+      grid-column: 1 / span 1; }
+    .landing__container--beemo_tree {
+      grid-row: 5 / span 6;
+      grid-column: 2 / span 3; }
+    .landing__container--logans {
+      grid-row: 3 / span 4;
+      grid-column: 6 / span 4; }
+    .landing__container--oscar {
+      grid-row: 9 / span 2;
+      grid-column: 5 / span 1; }
+    .landing__container--seymour_bandana {
+      grid-row: 8 / span 3;
+      grid-column: 1 / span 1; }
+    .landing__container--me_and_mom {
+      grid-row: 3 / span 3;
+      grid-column: 10 / span 1; }
 
 .about_me {
   display: none; }
@@ -300,7 +370,9 @@ footer {
 
 .contact {
   display: none;
-  height: 110rem; }
+  height: 1050px; }
+  .contact__form {
+    height: 1000px; }
 
 .education {
   display: none; }

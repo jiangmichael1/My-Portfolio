@@ -11,8 +11,8 @@ const navBarSections = [aboutSect, workSect, eduSect, projSect, contSect, landSe
 
 // Make landing page show upon arrival
 const displayLanding = () => {
-    if (landSect.style.display !== "block"){
-        landSect.style.display = "block";
+    if (landSect.style.display !== "grid"){
+        landSect.style.display = "grid";
     }
 }
 
@@ -28,6 +28,8 @@ const toggleSection = (section) => {
 
     if (section === workSect) {
         section.style.display = "flex";
+    } else if (section === landSect) {
+        section.style.display = "grid";
     } else {
         section.style.display = "block";
     }
