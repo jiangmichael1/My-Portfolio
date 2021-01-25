@@ -159,3 +159,18 @@ x Get the navbar elements
   When an element is hovered over, only that element translates X (mouseenter)
   When the element is no longer hovered over, it translates X back the same amount (mouseleave)
 */
+
+// Gallery Functions
+
+/*
+If the item clicked on's class name is landing_img
+    Set background brightness to .88 and blur, then scale photo to regular size
+*/
+
+const gallery = document.querySelector('.landing');
+
+gallery.addEventListener('click', (e) => {
+    if (e.target.className === 'landing__img') {
+        console.log("I did it!");
+    }
+})
